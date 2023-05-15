@@ -1,0 +1,4 @@
+{
+  "name": "dockerfile-only-devcontainer-test-dsb-repo",
+  "build.dockerfile": "app/Dockerfile"
+}
