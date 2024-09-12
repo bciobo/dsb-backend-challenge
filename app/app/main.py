@@ -4,7 +4,7 @@ from fastapi import FastAPI, Request
 from fastapi.templating import Jinja2Templates
 from fastapi.responses import HTMLResponse
 
-from app import config
+ffrom app import configs
 from app.services.department import aggregate_dataset_counts_by_ministry
 from app.services.utils import read_departments_json
 from app.services.govdata import get_department_metadata
